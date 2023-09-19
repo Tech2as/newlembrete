@@ -1,0 +1,103 @@
+.admin-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:48px;
+}
+
+.admin-container h1{
+    margin-bottom: 28px;
+}
+.btn-register{
+    margin-bottom:28px;
+
+}
+
+.list{
+    width: 90%;
+    max-width: 600px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(18,18,18, 0.38);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    justify-content: center;
+    padding: 14px 8px;
+}
+
+.list p{
+    margin-bottom: 8px;
+}
+
+.list button{
+    margin-top: 8px;
+    margin-right: 8px;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.list-button{
+    text-align: center;
+}
+.list-created{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:15px;
+    font-family: Arial;
+    font-style: italic;
+    color: #C8C8C8;
+    
+}
+
+.btn-edit{
+    color: black;
+    background-color: yellow;
+}
+
+.btn-delete{
+    color: #FAFAFA;
+    background-color: red;
+}
+
+.btn-finish{
+    color: #FAFAFA;
+    background-color: green;
+}
+
+.btn-logout{
+    position:absolute;
+    bottom: 6%;
+    left: 4%;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0;
+    font-weight: bold;
+    background-color: red;
+    color: #FAFAFA;
+    transition: all 0.5s;
+}
+
+.btn-logout:hover{
+    background-color: rgba(219,38,41,1);
+    color: #FFF;
+}
+
+.btn-concluida{
+    text-decoration: none;
+    font-family: Arial;
+    position:absolute;
+    text-align: center;
+    bottom: 6%;
+    right:4%;
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+    padding-top: 12px;
+    border: 0;
+    font-weight: bold;
+    background-color: green;
+    color: #FAFAFA;
+    transition: all 0.5s;
+}
