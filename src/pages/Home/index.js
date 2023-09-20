@@ -31,7 +31,7 @@ async function handleLogin(e){
 
     return (
       <div className="home-container">
-        <img className="img-container" src="https://img.freepik.com/fotos-gratis/homem-saltando-sobre-o-impossivel-ou-possivel-sobre-o-penhasco-no-fundo-do-por-do-sol-ideia-de-conceito-de-negocios_1323-265.jpg"></img>
+        <img className="img-containera" src="https://img.freepik.com/fotos-gratis/homem-saltando-sobre-o-impossivel-ou-possivel-sobre-o-penhasco-no-fundo-do-por-do-sol-ideia-de-conceito-de-negocios_1323-265.jpg"></img>
         <div className="box-container">
         <h1>Lista de Tarefas</h1>
         <span>O sucesso começa com pequenos atos!</span>
