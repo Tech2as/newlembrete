@@ -101,3 +101,59 @@
     color: #FAFAFA;
     transition: all 0.5s;
 }
+
+.btn-back{
+    text-decoration: none;
+    font-family: Arial;
+    position:absolute;
+    text-align: center;
+    top: 6%;
+    left:25%;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    padding-top: 12px;
+    border: 0;
+    font-weight: bold;
+    background-color: blue;
+    color: #FAFAFA;
+    transition: all 0.5s;
+}
+.span-container{
+    margin-bottom: 28px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.top-container{
+    background-color: #7A7A7A;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.top-container h1{
+    text-align: center;
+    font-weight: bold;
+    color: #085604;
+}
+.top-container span{
+    margin-bottom: 28px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 30px;
+    color:#2A2A2A;
+}
+
+.img-container{
+    width: 100%;
+    max-width: 600px;
+    height: 60%;
+    max-height: 230px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+}
+
