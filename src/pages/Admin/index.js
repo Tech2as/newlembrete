@@ -167,7 +167,7 @@ function Admin(){
               <div className="list-button">
                   <button className="btn-edit" onClick={ () => editTarefa(item)}>Editar</button>
                   <button className="btn-delete"  onClick={() => deleteTarefa(item.id)}>Excluir</button>
-                  <button className="btn-finish" onClick={() => sendTarefa(item.tarefa)}>Concluir</button>
+                  <button className="btn-finish" onClick={() => sendTarefa(item.id)}>Concluir</button>
                  
               </div>
               <h5 className="list-created">Data da Postagem: {(new Date(item.created.seconds * 1000).toLocaleString())}</h5>
